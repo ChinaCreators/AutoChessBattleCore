@@ -128,10 +128,10 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClInclude Include="AutoChessBattleCore.hpp" />
-    <ClInclude Include="AutoChessBattleCoreExampleImplement.h" />
+    <ClInclude Include="AutoChessBattleCoreExampleImplementation.h" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="AutoChessBattleCoreExampleImplement.cpp" />
+    <ClCompile Include="AutoChessBattleCoreExampleImplementation.cpp" />
     <ClCompile Include="main.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

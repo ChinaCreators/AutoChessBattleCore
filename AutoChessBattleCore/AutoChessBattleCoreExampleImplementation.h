@@ -6,7 +6,7 @@ namespace AutoChessBattleCore
 	/*
 	这个实现只是为了通过编译，实际上没有任何实现
 	*/
-	class AutoChessBattleCoreExampleImplement : public AutoChessBattleCoreInterface
+	class AutoChessBattleCoreExampleImplementation : public AutoChessBattleCoreInterface
 	{
 	public:
 		bool IsPlayerAlive() const override;

@@ -18,12 +18,12 @@
     <ClInclude Include="AutoChessBattleCore.hpp">
       <Filter>源文件</Filter>
     </ClInclude>
-    <ClInclude Include="AutoChessBattleCoreExampleImplement.h">
+    <ClInclude Include="AutoChessBattleCoreExampleImplementation.h">
       <Filter>源文件</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="AutoChessBattleCoreExampleImplement.cpp">
+    <ClCompile Include="AutoChessBattleCoreExampleImplementation.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
     <ClCompile Include="main.cpp">
