@@ -24,8 +24,6 @@ namespace AutoChessBattleCore
 		void VisitPlayerRanking(const std::function<void(const PlayerView&) >& visitor) const override;
 
 
-		uint32_t GetShopLevel() const override;
-
 
 		bool CanIncreaseShopLevel() const override;
 

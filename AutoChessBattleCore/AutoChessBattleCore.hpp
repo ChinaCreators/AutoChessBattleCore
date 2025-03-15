@@ -37,13 +37,23 @@ namespace AutoChessBattleCore
 		bool m_IsGolden = false;
 	};
 
+	struct PlayerCombatRecord
+	{
+		uint32_t m_EnemyId = 0;
+		int32_t m_Damage = 0;
+	};
+
 	struct PlayerView
 	{
 		uint32_t m_Id = 0;
 		uint32_t m_Health = 0;
 		uint32_t m_Armor = 0;
+		uint32_t m_ShopLevel = 0;
 		const char* m_Name = nullptr;
 		const char* m_Description = nullptr;
+		uint32_t m_ContinueWinCount = 0;
+		uint32_t m_GoldenMinionCount = 0;
+		PlayerCombatRecord m_LatestCombatRecord[3];
 	};
 
 	/*
@@ -61,7 +71,6 @@ namespace AutoChessBattleCore
 
 		virtual void VisitPlayerRanking(const std::function<void(const PlayerView&)>& visitor) const = 0;
 
-		virtual uint32_t GetShopLevel() const = 0;
 		virtual bool CanIncreaseShopLevel() const = 0;
 		virtual bool IncreaseShopLevel() = 0;
 

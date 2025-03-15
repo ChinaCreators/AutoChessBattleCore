@@ -26,11 +26,6 @@ void AutoChessBattleCore::AutoChessBattleCoreExampleImplementation::VisitPlayerR
 	throw std::logic_error("The method or operation is not implemented.");
 }
 
-uint32_t AutoChessBattleCore::AutoChessBattleCoreExampleImplementation::GetShopLevel() const
-{
-	throw std::logic_error("The method or operation is not implemented.");
-}
-
 bool AutoChessBattleCore::AutoChessBattleCoreExampleImplementation::CanIncreaseShopLevel() const
 {
 	throw std::logic_error("The method or operation is not implemented.");
